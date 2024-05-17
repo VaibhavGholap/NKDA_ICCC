@@ -26,15 +26,15 @@ public class NKDALoginTest extends BaseClass {
         String expectedTitle="Utron- NKDA";
         Assert.assertEquals(actualTitle, expectedTitle);
 	}
-	@Test
-	public void sampleCase() {
-		ExtentManager.test.createNode("Validation1");
-		Assert.assertTrue(true);
-		ExtentManager.test.createNode("Validation2");
-		Assert.assertTrue(true);
-		ExtentManager.test.createNode("Validation3");
-		Assert.assertTrue(true);
-		ExtentManager.test.createNode("Validation4--changes--");
-		Assert.assertTrue(true);
-	}
+//	@Test
+//	public void sampleCase() {
+//		ExtentManager.test.createNode("Validation1");
+//		Assert.assertTrue(true);
+//		ExtentManager.test.createNode("Validation2");
+//		Assert.assertTrue(true);
+//		ExtentManager.test.createNode("Validation3");
+//		Assert.assertTrue(true);
+//		ExtentManager.test.createNode("Validation4--changes--");
+//		Assert.assertTrue(true);
+//	}
 }

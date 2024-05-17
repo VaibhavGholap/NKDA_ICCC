@@ -36,10 +36,11 @@ public class BaseClass {
 	@BeforeMethod
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
-		ChromeOptions chromeOptions= new ChromeOptions();
+//		ChromeOptions chromeOptions= new ChromeOptions();
 //		chromeOptions.addArguments("headless");
 //		chromeOptions.addArguments("window-size=1980,1080");
-	    driver = new ChromeDriver(chromeOptions);
+//	    driver = new ChromeDriver(chromeOptions);
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://nkdaiccc.purestudy.com/auth/login");
 	}
